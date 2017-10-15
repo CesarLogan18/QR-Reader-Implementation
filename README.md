@@ -42,9 +42,9 @@ public class QRCodeActivity extends BaseActivity implements QRCodeReaderView.OnQ
 
 
 ## Activity Listener Setup
-Implement this function in your Activity/fragment
+Implement this function in your Activity/fragment.
 This function will be triggered every time a QR code is read.
-text variable will be code read and points will be a unique data to rebuild code image.
+Text variable will be code read and points will be a unique data to rebuild code image.
 
 ```java
  @Override
